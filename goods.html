@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- script -->
+    <script src="./script/index.js" defer></script>
     <title>Delivery food</title>
 </head>
 
@@ -26,7 +30,7 @@
                             <img src="./images/icons/user.png" alt="user">
                             Войти
                         </button>
-                        <button class="btn btn-outline">
+                        <button class="btn btn-outline" id="cart-button">
                             <img src="./images/icons/basket.png" alt="basket">
                             Корзина
                         </button>
@@ -40,7 +44,7 @@
             <!-- products -->
             <section class="products">
                 <div class="container">
-                    <div class="products-wrapper">
+                    <div class="products-wrapper" id="goods-container">
                         <!-- products-card -->
                         <div class="products-card">
                             <div class="products-card__image">
